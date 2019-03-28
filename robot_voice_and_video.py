@@ -39,7 +39,7 @@ def vid_player_1(filename):
 def vid_player_2(filename,time_wait):#a goog practice 
     filepath_and_exe = os.path.join('xdg-open '+ HOME,'Documents',filename)
     #or you can use this below
-    #os.system('vlc --fullscreen & xdg-open /home/pi/Documents/nasa.mp4')
+    #filepath_and_exe= 'xdg-open '+ HOME + '/Documents/'+ filename
     os.system(filepath_and_exe)
     time.sleep(time_wait)
 
