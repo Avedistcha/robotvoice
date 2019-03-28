@@ -46,9 +46,9 @@ def vid_player_2(filename,time_wait):#a goog practice
 #-----------------------------EXECUTION------------------------------------------------------
 
 enter_sound('thank you please like and subscribe to my channel')
-play_sound('alien_1.wav',True) # set to True if you want it to wait untill the voice is fully executed
+play_sound('welcome_to_dome.wav',True) # set to True if you want it to wait untill the voice is fully executed
 print ('Hello Youtube')
-#vid_player_1('nasa.mp4')
+vid_player_1('Quasar_Dome.mp4')
 time_wait = 3
-vid_player_2('nasa.mp4',time_wait)
+#vid_player_2('nasa.mp4',time_wait)
 print('Hello from Avedis Tchamitchian Chanel')
