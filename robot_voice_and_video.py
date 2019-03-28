@@ -3,12 +3,12 @@ import os
 from subprocess import call
 import time
 
-HOME = os.environ['HOME'] #it will automatically knows your home username
+HOME = os.environ['HOME'] #it will automatically read your home username example /home/pi
 
 
-def enter_sound(message):# read and play your written sound out loud
+def enter_sound(message):# spell your written word out loud
     cmd_beg= 'espeak '
-    speed = ' -g10 '
+    speed = ' -g10 ' # here you can change the speed of the reading
     gender = ' -ven+m3 ' #m stands for male and 3 stands for 3rd style
     cmd_end= ' 2>/dev/null' # To dump the std errors to /dev/null
 
